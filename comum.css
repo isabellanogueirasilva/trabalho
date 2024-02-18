@@ -1,0 +1,68 @@
+body {
+    cursor: url(cursor/CatPaw_normal.cur), default;
+    margin: 0px;
+}
+
+.fundo {
+    background-image: url(isa.img/imagem.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-size: cover;
+    background-attachment: fixed;  
+}
+
+header {
+    background-color: #d80404;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    h1 {
+        font-size: 200%;
+    }
+}
+
+nav {
+    overflow: hidden;
+    background-color: #871b1b;
+  }
+  
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+nav a:hover {
+    background-color: green;
+    color: white;
+}
+
+.ativo {
+    background-color: green;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    font-size: 25px;
+    p {
+        font-size: 25px;
+    }
+}
+
+
+a {
+    cursor: url(cursor2/CatPaw_precision.cur),pointer
+}

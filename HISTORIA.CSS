@@ -1,0 +1,22 @@
+a{
+    cursor: url(cursor2/CatPaw_precision.cur),pointer
+}
+
+.caixa {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px 10px;
+    border-radius: 10px;
+    h1 {
+        font-size: 200% ;
+        background-color: bisque;
+        border-radius: 10px;
+        margin-top: 5px;
+    }
+    p {
+        margin: 5px;
+        font-size: 25px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+}

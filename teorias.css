@@ -1,0 +1,45 @@
+h1{
+    font-size: 400%;
+text-align: center;
+}
+.diario.jpg{
+    text-align: center;
+}
+body {
+    background-image: url(isa.img/lady6.jpg);
+    cursor: url(cursor/CatPaw_normal.cur), default 
+
+   }
+   a{
+    cursor: url(cursor2/CatPaw_precision.cur),pointer
+}
+p{
+    font-size: 250%;
+    text-align: center;
+}
+img {
+    max-width: 800%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.caixa {
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0px 10px;
+    border-radius: 10px;
+    h1 {
+        font-size: 200% ;
+        background-color: #871b1b;
+        border-radius: 10px;
+        margin-top: 5px;
+        color: #ffffff;
+    }
+    p {
+        margin: 5px;
+        font-size: 25px;
+    }
+    .titulo {
+        font-size: 30px;
+    }
+}

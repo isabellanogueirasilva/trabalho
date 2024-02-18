@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRACULOS.ISA </title>
+    <link rel="stylesheet" href="isabellaindex.css">
+    <link rel="stylesheet" href="comum.css">
+</head>
+    <body>
+        <nav>
+            <a href="index.html" class="ativo">inicial</a> 
+            <a href="historia.html">historia</a> 
+            <a href="teorias.html">teorias</a>
+        </nav>
+
+    <header>
+        <h1>🐞Miraculos as aventura de Ladybug e Cat Noir🐞</h1>
+    </header>
+
+
+
+<div class="fundo">
+    <div class="caixa">
+            <center><h1 class="titulo">Bem-vindo ao Meu Site! Aqui falaremos um pouco sobre miraculos </h1></center>
+            <h1> &nbsp;• SINOPSE</h1>
+            <p>Em Paris, a vibrante Marinette Dupain-Cheng e o enigmático Adrien Agreste se transformam em Ladybug e Cat Noir, respectivamente, para enfrentar o astuto Hawk Moth, valendo-se dos poderosos Miraculous. Unidos, eles encaram a ameaça dos akumas, transformando vilões e desafios para proteger a cidade das garras do mal.</p>
+            <h1>&nbsp;• ORIGEM</h1>
+            <p> Miraculous: As Aventuras de Ladybug & Cat Noir é uma série de animação francesa criada por Thomas Astruc. Produzida pelos estúdios Zagtoon, Method Animation, Toei Animation, SAMG Animation, SK Broadband e De Agostini, a série estreou em 2015 na Coreia do Sul e no Disney Channel. No Brasil, foi adquirida pelo canal Gloob e estreou em março de 2016. A trama acompanha as aventuras de Ladybug e Cat Noir na luta contra o vilão Hawk Moth, usando seus Miraculous. Com uma mistura de magia, ação e comédia, a série conquistou fãs em todo o mundo.</p>
+        </div>
+        <br><br>
+
+
+
+<!-- slide -->
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 7</div>
+      <img src="isa.img/lady3.jpg" width="1020px" height="580px">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 7</div>
+      <img src="isa.img/lady4.jpg" width="1020px" height="580px">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 7</div>
+      <img src="isa.img/lady5.jpg" width="1020px" height="580px">
+    </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 7</div>
+        <img src="isa.img/lady7.webp" width="1020px" height="580px">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 7</div>
+        <img src="isa.img/lady8.jpg" width="1020px" height="580px">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 7</div>
+        <img src="isa.img/lady9.jpg" width="1020px" height="580px">
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">7 / 7</div>
+        <img src="isa.img/lady10.jpg" width="1020px" height="580px">
+      </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span> 
+    </div>
+
+        <footer>
+            <p>&copy; 2024 Meu Site. Todos os direitos reservados.</p>
+        </footer>    
+    </div>
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    </body>
+</html>

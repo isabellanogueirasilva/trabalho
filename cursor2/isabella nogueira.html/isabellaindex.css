@@ -1,0 +1,16 @@
+ul{display: flex;
+justify-content: space-between;
+list-style-type: none 
+} 
+nav a:hover{
+    color: green;
+}
+body{
+    cursor: url(cursor/CatPaw_normal.cur), default
+} 
+a{
+    cursor: url(cursor2/CatPaw_precision.cur),pointer
+}
+.box{
+    opacity: 0,6;
+}
